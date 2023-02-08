@@ -14,4 +14,22 @@ div > ul{
     border-bottom: solid gray 1px;
 }
 
+li a:link{
 
+    color:green;
+}
+li a:visited{
+    color:red;
+}
+li a:hover{
+    color:pink;
+}
+li:first-child::first-letter{
+
+    font-weight: bold;
+    font-size: 120%;
+
+}
+a[href="https://bcit.ca"]{
+    background-color: yellow;
+}
