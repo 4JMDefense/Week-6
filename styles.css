@@ -6,10 +6,12 @@ h2 + p {
     color:red;
 }
 
-ul{
+div > ul{
     list-style-type: none;
 }
 
-ul ul li{
-    border-bottom:solid gray 1px;
+.list > li{
+    border-bottom: solid gray 1px;
 }
+
+
